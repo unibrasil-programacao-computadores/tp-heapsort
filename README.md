@@ -3,7 +3,7 @@
 
 **Autores**:
 
-- Marcelo Henrique - [@MarcDevGuy127](https://github.com/MarcDevGuy127)
+- Marcelo Henrique[**Líder**] - [@MarcDevGuy127](https://github.com/MarcDevGuy127)
 - Nicolas Bueno - [@Bueno135](https://github.com/Bueno135)
 - Carlos - [@](https://github.com/)
 
