@@ -5,7 +5,7 @@
 
 - Marcelo Henrique[**Líder**] - [@MarcDevGuy127](https://github.com/MarcDevGuy127)
 - Nicolas Bueno - [@Bueno135](https://github.com/Bueno135)
-- Carlos - [@](https://github.com/)
+- Carlos - [@Adonski7](https://github.com/Adonski7)
 
 Esse repositório armazena um código e materiais relacionados ao Algoritmo de Ordenação **HeapSort**.
 
@@ -21,7 +21,7 @@ Abra o **Prompt de Comando**, e siga os seguintes passos:
 Clone o projeto:
 
 ```bash
-  git clone https://github.com/MarcDevGuy127/tp-heapsort
+  git clone https://github.com/unibrasil-programacao-computadores/tp-heapsort
 ```
 
 Entre no diretório do projeto:

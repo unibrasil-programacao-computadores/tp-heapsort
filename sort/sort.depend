@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1746533359 source:c:\projects\programacao-computadores\root\sort\main.c
+	"sort.h"
+	"input.h"
+
+1746533423 c:\projects\programacao-computadores\root\sort\sort.h
+	<stdlib.h>
+
+1746533114 source:c:\projects\programacao-computadores\root\sort\sort.c
+	"sort.h"
+
+1746533260 c:\projects\programacao-computadores\root\sort\input.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1746533279 source:c:\projects\programacao-computadores\root\sort\input.c
+	"input.h"
+
+1746577885 source:c:\users\marcelo silva\desktop\repositorio_git\root\sort\input.c
+	"input.h"
+
+1746577885 c:\users\marcelo silva\desktop\repositorio_git\root\sort\input.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1746488634 source:c:\users\marcelo silva\desktop\repositorio_git\root\sort\main.c
+	"sort.h"
+	"input.h"
+
+1746577885 c:\users\marcelo silva\desktop\repositorio_git\root\sort\sort.h
+	<stdlib.h>
+
