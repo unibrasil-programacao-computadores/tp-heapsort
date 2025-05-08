@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # TP2 - Algoritmos de Ordenação: HeapSort
 
 **Autores**:
@@ -51,8 +49,6 @@ Após compilar, execute o programa:
 
 
 
-=======
-
 # TP2 - Algoritmos de Ordenação: HeapSort
 
 **Autores**:
@@ -101,7 +97,3 @@ Após compilar, execute o programa:
 - readme.so
 - Microsoft Office Word
 - Microsoft Office PowerPoint
-
-
-
->>>>>>> 7c84be01b8b3281b52e571d12d6d904da514d1a0
