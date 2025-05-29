@@ -32,3 +32,21 @@
 1746577885 c:\users\marcelo silva\desktop\repositorio_git\root\sort\sort.h
 	<stdlib.h>
 
+1746577885 source:c:\users\marcelo silva\desktop\repositorio_git\tp-heapsort\sort\input.c
+	"input.h"
+
+1746577885 c:\users\marcelo silva\desktop\repositorio_git\tp-heapsort\sort\input.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1748539029 source:c:\users\marcelo silva\desktop\repositorio_git\tp-heapsort\sort\main.c
+	"sort.h"
+	"input.h"
+
+1746577885 c:\users\marcelo silva\desktop\repositorio_git\tp-heapsort\sort\sort.h
+	<stdlib.h>
+
+1746637980 source:c:\users\marcelo silva\desktop\repositorio_git\tp-heapsort\sort\sort.c
+	"sort.h"
+
