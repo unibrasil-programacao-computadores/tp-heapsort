@@ -74,15 +74,12 @@ void heapify(double* arr, long n, long i)
         temp = arr[i];
         swap(&arr[i], &arr[valor_maximo]);
         heapify(arr, n, valor_maximo);
-        //arr[valor_maximo] = temp;
     }
 }
 
-//void heapsort(double* arr, long arr_size)
 void heapsort(double* arr, long arr_size)
 {
     long i;
-    //double temp;
 
     //construindo max heap
     for (i = arr_size / 2 - 1; i >= 0; i--) {
@@ -92,11 +89,8 @@ void heapsort(double* arr, long arr_size)
     //heap sort
     for (i = arr_size - 1; i >= 0; i--) {
         swap(&arr[0], &arr[i]);
-        //temp = arr[0];
-        //arr[0] = arr[i];
-        //arr[i] = temp;
-        //aplicando heapify na raiz para que o maior elemento volte à raiz. */
 
+        //aplicando heapify na raiz para que o maior elemento volte à raiz. */
         heapify(arr, i, 0);
     }
 }
