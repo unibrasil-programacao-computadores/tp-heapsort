@@ -31,8 +31,8 @@ void selectionsort(double* arr, long arr_size)
         arr[min] = arr[i];
         arr[i] = x;
     }
-}
-//implementar insertionsort que não use sentinela comitar
+}//implementar insertionsort que não use sentinela comitar
+
 void insertionsort(double* arr, long arr_size)
 {
     int i, j;
@@ -49,7 +49,11 @@ void insertionsort(double* arr, long arr_size)
 // funcao para alternar a posicao de dois elementos(swap)
 void swap(double *a, double *b)
 {
+    // temp eh uma variavel para armazenar um valor temporario
+    // *a eh um apontador que representa uma posicao
+    // *b eh um apontador que representa uma outra posicao
     double temp = *a;
+
     *a = *b;
     *b = temp;
 }
@@ -57,6 +61,11 @@ void swap(double *a, double *b)
 // funcao da filtragem(heapify)
 void heapify(double* arr, long n, long i)
 {
+    // arr eh o array
+    // i eh a posicao
+    // n eh a enesima posicao(tamanho do array/qntde de elementos no array)
+
+    // encontrando o maior valor(valor_maximo) entre a raiz, posicao_esq e posicao_dir
     double temp;
     long valor_maximo, posicao_esq, posicao_dir;
 
@@ -70,6 +79,7 @@ void heapify(double* arr, long n, long i)
     if (posicao_dir < n && arr[posicao_dir] > arr[valor_maximo])
         valor_maximo = posicao_dir;
 
+    // prosseguir com alternancia e filtragem se a raiz nao for o maior elemento(valor_maximo)
     if (valor_maximo != i) {
         temp = arr[i];
         swap(&arr[i], &arr[valor_maximo]);
@@ -77,17 +87,18 @@ void heapify(double* arr, long n, long i)
     }
 }
 
+//procedimento heap sort
 void heapsort(double* arr, long arr_size)
 {
-    long i;
+    //long i;
 
     //construindo max heap
-    for (i = arr_size / 2 - 1; i >= 0; i--) {
+    for (int i = arr_size / 2 - 1; i >= 0; i--) {
         heapify(arr, arr_size, i);
     }
 
-    //heap sort
-    for (i = arr_size - 1; i >= 0; i--) {
+    //fazendo heap sort
+    for (int i = arr_size - 1; i >= 0; i--) {
         swap(&arr[0], &arr[i]);
 
         //aplicando heapify na raiz para que o maior elemento volte à raiz. */
