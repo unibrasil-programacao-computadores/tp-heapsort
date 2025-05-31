@@ -54,6 +54,7 @@ void swap(double *a, double *b)
     // *b eh um apontador que representa uma outra posicao
     double temp = *a;
 
+    //*a vai passar/apontar valor para *b, e *b vai passar/apontar para temp(onde o valor estara armazenado)
     *a = *b;
     *b = temp;
 }
@@ -90,18 +91,16 @@ void heapify(double* arr, long n, long i)
 //procedimento heap sort
 void heapsort(double* arr, long arr_size)
 {
-    //long i;
-
     //construindo max heap
     for (int i = arr_size / 2 - 1; i >= 0; i--) {
         heapify(arr, arr_size, i);
     }
 
-    //fazendo heap sort
+    //realizando o heap sort
     for (int i = arr_size - 1; i >= 0; i--) {
         swap(&arr[0], &arr[i]);
 
-        //aplicando heapify na raiz para que o maior elemento volte à raiz. */
+        //aplicando heapify na raiz para que o maior elemento volte para a raiz.
         heapify(arr, i, 0);
     }
 }
