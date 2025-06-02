@@ -46,27 +46,30 @@ void insertionsort(double* arr, long arr_size)
     }
 }
 
-// funcao para alternar a posicao de dois elementos(swap)
+//funcao para alternar a posicao de dois elementos(swap)
 void swap(double *a, double *b)
 {
-    // temp eh uma variavel para armazenar um valor temporario
-    // *a eh um apontador que representa uma posicao
-    // *b eh um apontador que representa uma outra posicao
+    //temp eh uma variavel para armazenar um valor temporario
+    //*a eh um apontador que representa uma posicao
+    //*b eh um apontador que representa uma outra posicao
+
+    //o valor de *a ficara em temp
     double temp = *a;
 
-    //*a vai passar/apontar valor para *b, e *b vai passar/apontar para temp(onde o valor estara armazenado)
+    //os ponteiros *a e *b trocara dois elementos
+    //*a sera igual o valor de *b, ja *b vai sera igual temp(onde o valor estara armazenado)
     *a = *b;
     *b = temp;
 }
 
-// funcao da filtragem(heapify)
+//funcao da filtragem(heapify)
 void heapify(double* arr, long n, long i)
 {
-    // arr eh o array
-    // i eh a posicao
-    // n eh a enesima posicao(tamanho do array/qntde de elementos no array)
+    //arr eh o array
+    //i eh a posicao
+    //n eh a enesima posicao(tamanho do array/qntde de elementos no array)
 
-    // encontrando o maior valor(valor_maximo) entre a raiz, posicao_esq e posicao_dir
+    //encontrando o maior valor(valor_maximo) entre a raiz, posicao_esq e posicao_dir
     double temp;
     long valor_maximo, posicao_esq, posicao_dir;
 
@@ -74,16 +77,30 @@ void heapify(double* arr, long n, long i)
     posicao_esq = 2 * i + 1;
     posicao_dir = 2 * i + 2;
 
+    //se o valor da posicao_esq existir/for menor que o tamanho do array(enesima posicao)
+    //e for maior que a raiz do array
     if (posicao_esq < n && arr[posicao_esq] > arr[valor_maximo])
+
+        //a raiz da arvore sera atualizada pelo valor da posicao_esq
         valor_maximo = posicao_esq;
 
+    //se o valor da posicao_dir existir/for menor que enesima posicao/o tamanho do array
+    //e for maior que a raiz do array
     if (posicao_dir < n && arr[posicao_dir] > arr[valor_maximo])
+
+        //a raiz da arvore sera atualizada pelo valor da posicao_dir
         valor_maximo = posicao_dir;
 
-    // prosseguir com alternancia e filtragem se a raiz nao for o maior elemento(valor_maximo)
+    //se a raiz nao for o maior elemento(valor_maximo), prosseguir com swap(alternancia) e heapify(filtragem).
     if (valor_maximo != i) {
+
+        //temp valera uma determinada posicao do array
         temp = arr[i];
+
+        //alternara essa determinada posicao do array com a raiz
         swap(&arr[i], &arr[valor_maximo]);
+
+        //e passara o array, o seu tamanho e raiz para filtrar
         heapify(arr, n, valor_maximo);
     }
 }
@@ -98,6 +115,8 @@ void heapsort(double* arr, long arr_size)
 
     //realizando o heap sort
     for (int i = arr_size - 1; i >= 0; i--) {
+
+        //alternando a raiz com uma determinada posicao do array
         swap(&arr[0], &arr[i]);
 
         //aplicando heapify na raiz para que o maior elemento volte para a raiz.
