@@ -40,14 +40,15 @@
 	<stdlib.h>
 	<time.h>
 
-1748905137 source:c:\users\marcelo silva\desktop\repositorio_git\tp-heapsort\sort\main.c
+1749217196 source:c:\users\marcelo silva\desktop\repositorio_git\tp-heapsort\sort\main.c
 	"sort.h"
 	"input.h"
 
 1746577885 c:\users\marcelo silva\desktop\repositorio_git\tp-heapsort\sort\sort.h
 	<stdlib.h>
 
-1748830053 source:c:\users\marcelo silva\desktop\repositorio_git\tp-heapsort\sort\sort.c
+1749217182 source:c:\users\marcelo silva\desktop\repositorio_git\tp-heapsort\sort\sort.c
 	"sort.h"
+	<stdio.h>
 	<stdio.h>
 
