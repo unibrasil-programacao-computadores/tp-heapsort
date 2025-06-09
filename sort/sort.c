@@ -36,13 +36,18 @@ void selectionsort(double* arr, long arr_size)
 void insertionsort(double* arr, long arr_size)
 {
     int i, j;
-    double sent;
-    for(i = 2; i < arr_size; i++) {
-        sent = 2;
-        while(j >=0 && sent < arr[j]) {
+    double x;
+    for(i = 1; i <= arr_size; i++){
+
+        x = arr[i];
+        j = i - 1;
+
+        while(j >= 0 && x < arr[j]){
+
+            arr[j + 1] = arr[j];
             j--;
         }
-        j=sent;
+        arr[j + 1] = x;
     }
 }
 
