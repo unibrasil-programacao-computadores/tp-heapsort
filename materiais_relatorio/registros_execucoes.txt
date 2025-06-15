@@ -63,3 +63,119 @@ Heapsort [12/15] - Vector Size: 1000000 - CPU time : 0.454000 seconds
 Heapsort [13/15] - Vector Size: 2000000 - CPU time : 0.964000 seconds
 Heapsort [14/15] - Vector Size: 3000000 - CPU time : 1.490000 seconds
 Heapsort [15/15] - Vector Size: 4000000 - CPU time : 1.990000 seconds
+
+
+
+
+Quicksort - Vector Size: 1000 - CPU time : 0.000000 seconds
+
+Sorting files with format: input/reverse_ordered/reverse_ordered-input-%d-float.txt
+Quicksort [01/15] - Vector Size: 10000 - CPU time : 0.002000 seconds
+Quicksort [02/15] - Vector Size: 50000 - CPU time : 0.007000 seconds
+Quicksort [03/15] - Vector Size: 100000 - CPU time : 0.012000 seconds
+Quicksort [04/15] - Vector Size: 200000 - CPU time : 0.034000 seconds
+Quicksort [05/15] - Vector Size: 300000 - CPU time : 0.048000 seconds
+Quicksort [06/15] - Vector Size: 400000 - CPU time : 0.062000 seconds
+Quicksort [07/15] - Vector Size: 500000 - CPU time : 0.076000 seconds
+Quicksort [08/15] - Vector Size: 600000 - CPU time : 0.096000 seconds
+Quicksort [09/15] - Vector Size: 700000 - CPU time : 0.099000 seconds
+Quicksort [10/15] - Vector Size: 800000 - CPU time : 0.125000 seconds
+Quicksort [11/15] - Vector Size: 900000 - CPU time : 0.126000 seconds
+Quicksort [12/15] - Vector Size: 1000000 - CPU time : 0.148000 seconds
+Quicksort [13/15] - Vector Size: 2000000 - CPU time : 0.320000 seconds
+Quicksort [14/15] - Vector Size: 3000000 - CPU time : 0.534000 seconds
+Quicksort [15/15] - Vector Size: 4000000 - CPU time : 0.692000 seconds
+
+Selectionsort - Vector Size: 1000 - CPU time : 0.006000 seconds
+
+Sorting files with format: input/reverse_ordered/reverse_ordered-input-%d-float.txt
+Selectionsort [01/15] - Vector Size: 10000 - CPU time : 0.608000 seconds
+Selectionsort [02/15] - Vector Size: 50000 - CPU time : 11.320000 seconds
+Selectionsort [03/15] - Vector Size: 100000 - CPU time : 44.193000 seconds
+
+Insertionsort - Vector Size: 1000 - CPU time : 0.001000 seconds
+
+Sorting files with format: input/reverse_ordered/reverse_ordered-input-%d-float.txt
+Insertionsort [01/15] - Vector Size: 10000 - CPU time : 0.252000 seconds
+Insertionsort [02/15] - Vector Size: 50000 - CPU time : 6.362000 seconds
+Insertionsort [03/15] - Vector Size: 100000 - CPU time : 25.730000 seconds
+Insertionsort [04/15] - Vector Size: 200000 - CPU time : 102.437000 seconds
+
+Heapsort - Vector Size: 1000 - CPU time : 0.001000 seconds
+
+Sorting files with format: input/reverse_ordered/reverse_ordered-input-%d-float.txt
+Heapsort [01/15] - Vector Size: 10000 - CPU time : 0.010000 seconds
+Heapsort [02/15] - Vector Size: 50000 - CPU time : 0.023000 seconds
+Heapsort [03/15] - Vector Size: 100000 - CPU time : 0.038000 seconds
+Heapsort [04/15] - Vector Size: 200000 - CPU time : 0.077000 seconds
+Heapsort [05/15] - Vector Size: 300000 - CPU time : 0.120000 seconds
+Heapsort [06/15] - Vector Size: 400000 - CPU time : 0.176000 seconds
+Heapsort [07/15] - Vector Size: 500000 - CPU time : 0.208000 seconds
+Heapsort [08/15] - Vector Size: 600000 - CPU time : 0.265000 seconds
+Heapsort [09/15] - Vector Size: 700000 - CPU time : 0.311000 seconds
+Heapsort [10/15] - Vector Size: 800000 - CPU time : 0.345000 seconds
+Heapsort [11/15] - Vector Size: 900000 - CPU time : 0.398000 seconds
+Heapsort [12/15] - Vector Size: 1000000 - CPU time : 0.442000 seconds
+Heapsort [13/15] - Vector Size: 2000000 - CPU time : 0.944000 seconds
+Heapsort [14/15] - Vector Size: 3000000 - CPU time : 1.433000 seconds
+Heapsort [15/15] - Vector Size: 4000000 - CPU time : 1.974000 seconds
+
+
+
+
+
+
+
+
+Quicksort - Vector Size: 1000 - CPU time : 0.001000 seconds
+
+Sorting files with format: input/uniform/uniform-input-%d-%d-float.txt
+Quicksort [01/15] - Vector Size: 10000 - CPU time : 0.003000 seconds
+Quicksort [02/15] - Vector Size: 50000 - CPU time : 0.018000 seconds
+Quicksort [03/15] - Vector Size: 100000 - CPU time : 0.036667 seconds
+Quicksort [04/15] - Vector Size: 200000 - CPU time : 0.078000 seconds
+Quicksort [05/15] - Vector Size: 300000 - CPU time : 0.120333 seconds
+Quicksort [06/15] - Vector Size: 400000 - CPU time : 0.164333 seconds
+Quicksort [07/15] - Vector Size: 500000 - CPU time : 0.402000 seconds
+Quicksort [08/15] - Vector Size: 600000 - CPU time : 0.368000 seconds
+Quicksort [09/15] - Vector Size: 700000 - CPU time : 0.710667 seconds
+Quicksort [10/15] - Vector Size: 800000 - CPU time : 0.513333 seconds
+Quicksort [11/15] - Vector Size: 900000 - CPU time : 0.547667 seconds
+Quicksort [12/15] - Vector Size: 1000000 - CPU time : 1.495667 seconds
+Quicksort [13/15] - Vector Size: 2000000 - CPU time : 2.069333 seconds
+Quicksort [14/15] - Vector Size: 3000000 - CPU time : 2.076333 seconds
+Quicksort [15/15] - Vector Size: 4000000 - CPU time : 2.831333 seconds
+
+Selectionsort - Vector Size: 1000 - CPU time : 0.009000 seconds
+
+Sorting files with format: input/uniform/uniform-input-%d-%d-float.txt
+Selectionsort [01/15] - Vector Size: 10000 - CPU time : 0.919667 seconds
+Selectionsort [02/15] - Vector Size: 50000 - CPU time : 20.785333 seconds
+Selectionsort [03/15] - Vector Size: 100000 - CPU time : 80.105000 seconds
+
+Insertionsort - Vector Size: 1000 - CPU time : 0.004000 seconds
+
+Sorting files with format: input/uniform/uniform-input-%d-%d-float.txt
+Insertionsort [01/15] - Vector Size: 10000 - CPU time : 0.280000 seconds
+Insertionsort [02/15] - Vector Size: 50000 - CPU time : 7.511667 seconds
+Insertionsort [03/15] - Vector Size: 100000 - CPU time : 27.843667 seconds
+Insertionsort [04/15] - Vector Size: 200000 - CPU time : 93.407000 seconds
+
+Heapsort - Vector Size: 1000 - CPU time : 0.000000 seconds
+
+Sorting files with format: input/uniform/uniform-input-%d-%d-float.txt
+Heapsort [01/15] - Vector Size: 10000 - CPU time : 0.007000 seconds
+Heapsort [02/15] - Vector Size: 50000 - CPU time : 0.035000 seconds
+Heapsort [03/15] - Vector Size: 100000 - CPU time : 0.073333 seconds
+Heapsort [04/15] - Vector Size: 200000 - CPU time : 0.171000 seconds
+Heapsort [05/15] - Vector Size: 300000 - CPU time : 0.262667 seconds
+Heapsort [06/15] - Vector Size: 400000 - CPU time : 0.365000 seconds
+Heapsort [07/15] - Vector Size: 500000 - CPU time : 0.451000 seconds
+Heapsort [08/15] - Vector Size: 600000 - CPU time : 0.546000 seconds
+Heapsort [09/15] - Vector Size: 700000 - CPU time : 0.690667 seconds
+Heapsort [10/15] - Vector Size: 800000 - CPU time : 0.759667 seconds
+Heapsort [11/15] - Vector Size: 900000 - CPU time : 0.968333 seconds
+Heapsort [12/15] - Vector Size: 1000000 - CPU time : 1.042667 seconds
+Heapsort [13/15] - Vector Size: 2000000 - CPU time : 3.033667 seconds
+Heapsort [14/15] - Vector Size: 3000000 - CPU time : 3.748333 seconds
+Heapsort [15/15] - Vector Size: 4000000 - CPU time : 5.529667 seconds
