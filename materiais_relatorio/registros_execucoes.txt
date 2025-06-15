@@ -1,0 +1,65 @@
+
+Quicksort - Vector Size: 1000 - CPU time : 0.001000 seconds
+
+Sorting files with format: input/ordered/ordered-input-%d-float.txt
+Quicksort [01/15] - Vector Size: 10000 - CPU time : 0.002000 seconds
+Quicksort [02/15] - Vector Size: 50000 - CPU time : 0.007000 seconds
+Quicksort [03/15] - Vector Size: 100000 - CPU time : 0.020000 seconds
+Quicksort [04/15] - Vector Size: 200000 - CPU time : 0.028000 seconds
+Quicksort [05/15] - Vector Size: 300000 - CPU time : 0.036000 seconds
+Quicksort [06/15] - Vector Size: 400000 - CPU time : 0.063000 seconds
+Quicksort [07/15] - Vector Size: 500000 - CPU time : 0.076000 seconds
+Quicksort [08/15] - Vector Size: 600000 - CPU time : 0.080000 seconds
+Quicksort [09/15] - Vector Size: 700000 - CPU time : 0.104000 seconds
+Quicksort [10/15] - Vector Size: 800000 - CPU time : 0.111000 seconds
+Quicksort [11/15] - Vector Size: 900000 - CPU time : 0.128000 seconds
+Quicksort [12/15] - Vector Size: 1000000 - CPU time : 0.142000 seconds
+Quicksort [13/15] - Vector Size: 2000000 - CPU time : 0.309000 seconds
+Quicksort [14/15] - Vector Size: 3000000 - CPU time : 0.485000 seconds
+Quicksort [15/15] - Vector Size: 4000000 - CPU time : 0.647000 seconds
+
+Selectionsort - Vector Size: 1000 - CPU time : 0.009000 seconds
+
+Sorting files with format: input/ordered/ordered-input-%d-float.txt
+Selectionsort [01/15] - Vector Size: 10000 - CPU time : 0.386000 seconds
+Selectionsort [02/15] - Vector Size: 50000 - CPU time : 8.989000 seconds
+Selectionsort [03/15] - Vector Size: 100000 - CPU time : 61.217000 seconds
+Selectionsort [04/15] - Vector Size: 200000 - CPU time : 213.005000 seconds
+
+Insertionsort - Vector Size: 1000 - CPU time : 0.001000 seconds
+
+Sorting files with format: input/ordered/ordered-input-%d-float.txt
+Insertionsort [01/15] - Vector Size: 10000 - CPU time : 0.000000 seconds
+Insertionsort [02/15] - Vector Size: 50000 - CPU time : 0.001000 seconds
+Insertionsort [03/15] - Vector Size: 100000 - CPU time : 0.002000 seconds
+Insertionsort [04/15] - Vector Size: 200000 - CPU time : 0.003000 seconds
+Insertionsort [05/15] - Vector Size: 300000 - CPU time : 0.004000 seconds
+Insertionsort [06/15] - Vector Size: 400000 - CPU time : 0.005000 seconds
+Insertionsort [07/15] - Vector Size: 500000 - CPU time : 0.006000 seconds
+Insertionsort [08/15] - Vector Size: 600000 - CPU time : 0.007000 seconds
+Insertionsort [09/15] - Vector Size: 700000 - CPU time : 0.008000 seconds
+Insertionsort [10/15] - Vector Size: 800000 - CPU time : 0.009000 seconds
+Insertionsort [11/15] - Vector Size: 900000 - CPU time : 0.010000 seconds
+Insertionsort [12/15] - Vector Size: 1000000 - CPU time : 0.012000 seconds
+Insertionsort [13/15] - Vector Size: 2000000 - CPU time : 0.023000 seconds
+Insertionsort [14/15] - Vector Size: 3000000 - CPU time : 0.035000 seconds
+Insertionsort [15/15] - Vector Size: 4000000 - CPU time : 0.049000 seconds
+
+Heapsort - Vector Size: 1000 - CPU time : 0.000000 seconds
+
+Sorting files with format: input/ordered/ordered-input-%d-float.txt
+Heapsort [01/15] - Vector Size: 10000 - CPU time : 0.003000 seconds
+Heapsort [02/15] - Vector Size: 50000 - CPU time : 0.018000 seconds
+Heapsort [03/15] - Vector Size: 100000 - CPU time : 0.036000 seconds
+Heapsort [04/15] - Vector Size: 200000 - CPU time : 0.084000 seconds
+Heapsort [05/15] - Vector Size: 300000 - CPU time : 0.125000 seconds
+Heapsort [06/15] - Vector Size: 400000 - CPU time : 0.167000 seconds
+Heapsort [07/15] - Vector Size: 500000 - CPU time : 0.214000 seconds
+Heapsort [08/15] - Vector Size: 600000 - CPU time : 0.262000 seconds
+Heapsort [09/15] - Vector Size: 700000 - CPU time : 0.314000 seconds
+Heapsort [10/15] - Vector Size: 800000 - CPU time : 0.362000 seconds
+Heapsort [11/15] - Vector Size: 900000 - CPU time : 0.416000 seconds
+Heapsort [12/15] - Vector Size: 1000000 - CPU time : 0.454000 seconds
+Heapsort [13/15] - Vector Size: 2000000 - CPU time : 0.964000 seconds
+Heapsort [14/15] - Vector Size: 3000000 - CPU time : 1.490000 seconds
+Heapsort [15/15] - Vector Size: 4000000 - CPU time : 1.990000 seconds
