@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1748836657 source:c:\users\marcelo silva\desktop\repositorio_git\tp-heapsort\exemplos\heapsort_exemplo3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
